@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+from easygui import msgbox
+
+msg = msgbox('This App is Locked by Appsafe.', 'AppSafe')
