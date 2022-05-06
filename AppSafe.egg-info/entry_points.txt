@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    appsafe=AppSafe.appsafe:main
+    
