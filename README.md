@@ -5,14 +5,13 @@
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Justaus3r)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-![semver](https://badgen.net/badge/Semantic-Version/0.1.0/purple)
+![semver](https://badgen.net/badge/Semantic-Version/1.2.16/purple)
 
 A simple App Locker written in python.
 
 # Installation:
-- Just git clone it using ```git clone https://github.com/Xeroxxhah/AppSafe.git```
-- install requirements using ```python3 -m pip install -r requirements.txt```
-- Now simply ```python3 appsafe.py ``` 
+- You can simply install with ```pip install AppSafe```
+ 
 ### Bug report
 Found any bug!
 Report it to me at xeroxxhah@pm.me
