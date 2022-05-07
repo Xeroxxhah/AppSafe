@@ -16,7 +16,7 @@ OR
 - 1st: ```git clone https://github.com/Xeroxxhah/AppSafe.git```
 - 2nd ```cd AppSafe```
 - 3rd  ```python3 setup.py install```
-- 
+
 ### Bug report
 Found any bug!
 Report it to me at xeroxxhah@pm.me
