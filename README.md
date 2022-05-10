@@ -10,12 +10,15 @@
 A simple App Locker written in python.
 
 # Installation:
-- You can simply install with ```pip install AppSafe```
+- You can simply install with ```sudo pip3 install AppSafe```
 OR
 # Follow these steps: 
 - 1st: ```git clone https://github.com/Xeroxxhah/AppSafe.git```
 - 2nd ```cd AppSafe```
-- 3rd  ```python3 setup.py install```
+- 3rd  ```sudo python3 setup.py install```
+
+# Usage
+```sudo appsafe```
 
 ### Bug report
 Found any bug!
