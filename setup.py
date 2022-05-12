@@ -2,12 +2,16 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
+if os.geteuid() != 0:
+    print('Run it as root')
+    quit()
+
 here = os.path.abspath(os.path.dirname(__file__))
 
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.2.16'
+VERSION = '1.4.0'
 DESCRIPTION = 'A Simple python AppLocker and FileLocker'
 LONG_DESCRIPTION = 'A Simple python AppLocker and FileLocker'
 
@@ -24,7 +28,7 @@ setup(
     install_requires=['easygui', 'pyAesCrypt'],
     keywords=['python', 'python3', 'FileLock', 'AppLock','linux',],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: Running",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",

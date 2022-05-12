@@ -2,7 +2,7 @@ from .core.applock import AppLock
 from .core.auth import Auth
 from .core.version import Version
 import getpass
-import sys
+import shutil
 import os
 
 DEFALUT_PASS = 'Appsafe123'
@@ -61,7 +61,10 @@ def ShowApps():
     show.showLockedApps()
 
 if not version.IsUpdated():
-    print(f'New version available {version.updatedVersion}')
+    if version.updatedVersion is None:
+        pass
+    else:
+        print(f'New version available {version.updatedVersion}')
 
 menu = """
 1: Lock
@@ -80,10 +83,18 @@ def main():
     print(menu)
     option = input('Choose Option: ')
     if option == '1':
-        path = input('Enter path: ')
+        app = input('Enter appname: ')
+        path = shutil.which(app)
+        if path is None:
+            print('App not found enter path explicitly')
+            path = input('Enter path: ')
         lock(path)
     elif option == '2':
-        path = input('Enter path: ')
+        app = input('Enter appname: ')
+        path = shutil.which(app)
+        if path is None:
+            print('App not found enter path explicitly')
+            path = input('Enter path: ')
         unlock(path)
     elif option == '3':
         print(f'Version: {version.currentVersion}')
