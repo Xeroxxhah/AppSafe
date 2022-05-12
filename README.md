@@ -1,16 +1,16 @@
 ### README.md 👋
 # AppSafe
-[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Justaus3r/Penta)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Xeroxxhah/AppSafe)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
-[![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Justaus3r)
+[![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Xeroxxhah)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-![semver](https://badgen.net/badge/Semantic-Version/1.2.16/purple)
+![semver](https://badgen.net/badge/Semantic-Version/1.4.0/purple)
 
 A simple App Locker written in python.
 
 # Installation:
-- You can simply install with ```sudo pip3 install AppSafe```
+- You can simply install with ```sudo pip3 install git+https://github.com/Xeroxxhah/AppSafe.git```
 OR
 # Follow these steps: 
 - 1st: ```git clone https://github.com/Xeroxxhah/AppSafe.git```
