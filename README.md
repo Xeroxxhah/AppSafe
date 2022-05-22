@@ -5,7 +5,7 @@
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Xeroxxhah)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-![semver](https://badgen.net/badge/Semantic-Version/1.4.0/purple)
+![semver](https://badgen.net/badge/Semantic-Version/1.4.1/purple)
 
 A simple App Locker written in python.
 
