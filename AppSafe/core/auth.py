@@ -58,7 +58,6 @@ class Auth():
                         chngpass.write(hashlib.sha256(newPassword.encode()).hexdigest())
                     chngpass.close()
                 else:
-                    print(f'file: {secrettbm}, given: {hashlib.sha256(secret.encode()).hexdigest()}')
                     print('Wrong Secret...')
         else:
             print('Something went wrong...')
