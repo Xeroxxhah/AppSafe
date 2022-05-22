@@ -5,7 +5,7 @@ class Version():
 
     def __init__(self):
 
-        self.currentVersion = 'V1.4.0'
+        self.currentVersion = 'V1.4.1'
         try:
             self.updatedVersion = str(requests.get('https://api.github.com/repos/Xeroxxhah/appsafe/releases/latest').json().get('body'))
         except:
